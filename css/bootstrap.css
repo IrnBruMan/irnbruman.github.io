@@ -233,6 +233,7 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
+	word-wrap: break-word;
   }
   h2,
   h3 {
@@ -6758,5 +6759,38 @@ button.close {
     display: none !important;
   }
 }
+body {
+  padding : 10px ;
+  
+}
 
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

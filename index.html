@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -53,31 +53,58 @@
             <p><a href="#" target="_blank" class="btn btn-success btn-lg">Button</a></p>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-           <div class="col-xs-2">
-              <h2>Social Media</h2>
-			  <p><a href="#" target="_blank" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-facetime-video"></span> YouTube</a></p>
-           </div>
-           <div class="col-xs-6">
-              <h2>Column 2</h2>
-              <p>Paragraph</p>
-              <span class="fa fa-camera-retro"></span>
-           </div>
-           <div class="col-xs-4">
-              <h2>Column 3</h2>
-              <p>Paragraph</p>
-              <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-           </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-xs-12">
-                <footer>
-                    <p>&copy; Copyright 2013 Tutorial Republic</p>
-                </footer>
-            </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-2">
+            <h2>Social Media</h2>
+			<p><a href="#" target="_blank" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-facetime-video"></span> YouTube</a></p>
+			<p><a href="#" target="_blank" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-wrench"></span> Steam</a></p>
+		</div>
+		<div class="col-xs-10">
+            <div class="container"><h1>Maps</h1></div>
+			<div id="exTab1" class="container">	
+				<ul  class="nav nav-pills flex-wrap">
+					<li class="active">
+						<a  href="#1a" data-toggle="tab">Map 1</a>
+					</li>
+					<li>
+						<a href="#2a" data-toggle="tab">Map 2</a>
+					</li>
+					<li>
+						<a href="#3a" data-toggle="tab">Map 3</a>
+					</li>
+					<li>
+						<a href="#4a" data-toggle="tab">Map 4</a>
+					</li>
+				</ul>
+				<div class="tab-content flex-column clearfix">
+					<div class="tab-pane active" id="1a">
+						<h3>Content's background color is the same for the tab</h3>
+					</div>
+					
+					<div class="tab-pane" id="2a">
+						<h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+					</div>
+					
+					<div class="tab-pane" id="3a">
+						<h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+					</div>
+					
+					<div class="tab-pane" id="4a">
+						<h3>We use css to change the background color of the content to be equal to the tab</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12">
+            <footer>
+                <p>&copy; Copyright 2017 IrnBruMan</p>
+            </footer>
         </div>
     </div>
+</div>
 </body>
 </html>
