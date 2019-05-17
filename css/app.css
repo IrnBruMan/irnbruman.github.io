@@ -1,0 +1,195 @@
+	.a-link {
+  font-family: Arimo, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 1rem;
+	color: #6bf;
+}
+
+
+/*TYPOGRAPHY*/
+.macmen-title {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 0rem;
+}
+
+.macmen-title-main {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 7rem;
+  margin-bottom: 0.5rem;
+}
+
+.macmen-title-main-small {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.macmen-title-small {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.macmen-hero-text {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.macmen-topbar-text {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+	color: #fefefe;
+}
+
+.macmen-header {
+  font-family: Arimo;
+  font-weight: bold;
+  font-size: 3rem;
+  paadding-bottom: 1rem;
+}
+
+.macmen-text {
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.macmen-text-bold {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+	
+.macmen-text-big {
+  font-family: Arimo, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.macmen-text-big-margin {
+	font-family: Arimo, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.macmen-header-white {
+  font-family: Arimo;
+  font-weight: bold;
+  font-size: 3rem;
+	padding-left: 1rem;
+  paadding-bottom: 1rem;
+	color: #fefefe;
+}
+
+.macmen-text-big-margin-white {
+	font-family: Arimo, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: #fefefe;
+}
+
+.macmen-text-big-bold {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+	
+.bold {
+  font-weight: bold;
+}
+
+.text-margin {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+/*DIVIDERS*/
+.divider-top {
+	border-top: 1px solid #cacaca;
+}
+
+.divider-bottom {
+	border-bottom: 1px solid #cacaca;
+}
+
+.divider-right {
+	border-right: 1px solid #cacaca;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.spacer-top {
+	margin-top: 12.5%;;
+}
+
+.spacer-bottom {
+	margin-bottom: 12.5%;;
+}
+
+.sticky-topbar {
+  width: 100%;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+	.macmen-text-big-margin {
+    margin-left: 16.66666%;
+		margin-right: 16.66666%;
+  }
+	.macmen-text-big-margin-white {
+    margin-left: 16.66666%;
+		margin-right: 16.66666%;
+  }
+}
+/*Ony for whats in this file*/
+@media screen and (max-width: 450px) {
+	.macmen-title-main {
+		font-size: 5rem;
+	}
+	.macmen-text-big-margin {
+    margin-left: 2.07507%;
+		margin-right: 2.07507%;
+  }
+	.macmen-text-big-margin-white {
+    margin-left: 2.07507%;
+		margin-right: 2.07507%;
+  }
+}
+
+
