@@ -20,7 +20,7 @@
 .macmen-title-main {
   font-family: Arimo, sans-serif;
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -125,10 +125,6 @@
 	padding-left: 1rem;
 	padding-right: 1rem;
   margin-bottom: 0.5rem;
-}
-	
-.bold {
-  font-weight: bold;
 }
 
 .text-margin {
