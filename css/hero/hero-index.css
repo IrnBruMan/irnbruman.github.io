@@ -94,21 +94,3 @@
 	background: url("../../img/index/index-upgrade.jpg") center center no-repeat;
 	background-size: cover;
 }
-@media screen and (max-width: 39.99875em) {
-  .img-upgrades {
-    height: 33vh; } }
-
-.img-upgrades-big-only {
-	height: 100%;
-	background: url("../../img/index/index-upgrade-large.jpg") 75% top no-repeat;
-	background-size: cover;
-}
-
-.img-black {
-	height: 33vh;
-	background: url("../../img/black.png") center center no-repeat;
-	background-size: cover;
-}
-
-
-
