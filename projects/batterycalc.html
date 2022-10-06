@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backup Battery Capactiy Calculator</title>
+
+    <title>Backup Battery Capacity Calculator</title>
     <noscript>Sorry, your browser does not support JavaScript!</noscript>
   </head>
   <body>
@@ -22,15 +28,19 @@
      }
     </script>
 
-    <div class=" col-12 header justify-centre">
-      <h1>Backup Battery Capactiy Calculator</h1>
-      <h2>Designed by Jockney</h2>
-      <h5>Developed by IrnBruMan</h5>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Home</a>
+      </div>
+    </nav>
+
+    <div class="container-flush header text-center bg-dark">
+      <h1>Backup Battery Capacity Calculator</h1>
     </div>
 
     <br>
-    <div class="col-12">
-      <div class="justify-centre">
+    <div class="container-fluid bk-col-12">
+      <div class="text-center">
       <form id="in">
         <label for="i1">System Standby Current Draw (mAh): </label><br>
         <input type="number" name="i1" placeholder="250" id="i1"><br>
@@ -48,7 +58,7 @@
         <input type="number" name="derating" value="1.75" id="derating"><br>
       </form>
       <br>
-      <button onclick="calc()">Try it</button>
+      <button class="btn btn-primary" onclick="calc()">Try it</button>
       <br><br>
       <p id="out"><b>Required Backup Capacity: </b></p>
     </div>
@@ -60,7 +70,7 @@
 
 
 
- <div class="">
+ <div class="container">
    <br>
    <h3>About this tool</h3>
    <p>
@@ -74,44 +84,46 @@
      <br><br>
    </p>
  </div>
+  <div class="container">
+    <p>
+     <h3>BS 5839-1:2013; clause 25.4</h3>
 
- <p>
-  <h3>BS 5839-1:2013; clause 25.4</h3>
+       For category M or L systems the battery standby capacity should be
+       sufficient to maintain the system in an operational condition for at least 24
+       hours after which there should still be sufficient capacity to provide an
+       “Evacuate” signal in all alarm zones for a minimum of 30 minutes.<br><br>
 
-For category M or L systems the battery standby capacity should be
-sufficient to maintain the system in an operational condition for at least 24
-hours after which there should still be sufficient capacity to provide an
-“Evacuate” signal in all alarm zones for a minimum of 30 minutes.<br><br>
+       If a category M or L system is installed in a building with an automatically
+       started standby generator and it supplies the fire alarm system then the
+       battery standby capacity should be sufficient to maintain the system in an
+       operational condition for at least 6 hours after which there should still be
+       sufficient capacity to provide an “Evacuate” signal in all alarm zones for a
+       minimum of 30 minutes.<br><br>
 
-If a category M or L system is installed in a building with an automatically
-started standby generator and it supplies the fire alarm system then the
-battery standby capacity should be sufficient to maintain the system in an
-operational condition for at least 6 hours after which there should still be
-sufficient capacity to provide an “Evacuate” signal in all alarm zones for a
-minimum of 30 minutes.<br><br>
+       For a category P system the battery standby capacity should be sufficient
+       to maintain the system in an operational condition for at least 24 hours
+       after which there should still be sufficient capacity to provide an “Evacuate”
+       signal in all alarm zones for a minimum of 30 minutes provided that
+       either of the following conditions are met:<br><br>
 
-For a category P system the battery standby capacity should be sufficient
-to maintain the system in an operational condition for at least 24 hours
-after which there should still be sufficient capacity to provide an “Evacuate”
-signal in all alarm zones for a minimum of 30 minutes provided that
-either of the following conditions are met:<br><br>
+       a) the building is continuously staffed, or inspected outside of normal
+       working hours and that staff would be aware of a power supply fault
+       indication on the system within 6 hours of its occurrence; or<br><br>
 
-a) the building is continuously staffed, or inspected outside of normal
-working hours and that staff would be aware of a power supply fault
-indication on the system within 6 hours of its occurrence; or<br><br>
+       b) power supply fault signals are transmitted automatically to an alarm
+       receiving centre (ARC) and a keyholder is notified by the ARC on
+       receipt of a fault indication from the protected premises.<br><br>
 
-b) power supply fault signals are transmitted automatically to an alarm
-receiving centre (ARC) and a keyholder is notified by the ARC on
-receipt of a fault indication from the protected premises.<br><br>
+       If neither of the above requirements are met then the battery standby
+       capacity should be sufficient to maintain the system in an operational
+       condition for at least 24 hours longer than the maximum period the
+       premises is likely to be unoccupied, or for 72 hours in total,
+       whichever is less, after which there should still be sufficient capacity to
+       provide an “Evacuate” signal in all alarm zones for a minimum of 30
+       minutes.
+   </p>
+  </div>
 
-If neither of the above requirements are met then the battery standby
-capacity should be sufficient to maintain the system in an operational
-condition for at least 24 hours longer than the maximum period the
-premises is likely to be unoccupied, or for 72 hours in total,
-whichever is less, after which there should still be sufficient capacity to
-provide an “Evacuate” signal in all alarm zones for a minimum of 30
-minutes.
-</p>
 
 
 
