@@ -1,8 +1,0 @@
-.img-hero {
-	height: 80vh;
-	background: url("../../img/index/index-pricing.jpg") 25% top no-repeat;
-	background-size: cover;
-}
-@media screen and (max-width: 39.99875em) {
-  .img-hero {
-    height: 40vh;} }
